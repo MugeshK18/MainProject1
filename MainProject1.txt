@@ -6,7 +6,6 @@ interface Company
 		System.out.println("Company Name is : " +COMPANYNAME);
 	}
 }
-
 class Employee                                             //Single Inheritance
 {  
 	static String companyCeo;
@@ -49,8 +48,6 @@ class Department extends Employee                            //Multilevel inheri
 	}
 	
 }
-
-
 class Display extends Department implements Company           //Multiple inheritance
 {
 	public void getCompanyName()
@@ -65,12 +62,10 @@ class Display extends Department implements Company           //Multiple inherit
 		super.getEmpDetails();
 	}
 }
-
 public class MainProject1 {
 	
 	public static void main(String[] args) {
-		
-		
+				
 		String name[]= {"Mugesh","Navin","Mani"};
 		int id[]= {01,02,03};
 		int salary[]= {1000,2000,3000};
