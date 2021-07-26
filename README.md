@@ -1,4 +1,4 @@
-# MainProject1
+//# MainProject1
 interface Company
 {
 	String COMPANYNAME= "ABC";   
