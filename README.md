@@ -63,7 +63,6 @@ class Display extends Department implements Company           //Multiple inherit
 		super.getEmpDetails();
 	}
 }
-
 public class MainProject1 {
 	public static void main(String[] args) {
   
